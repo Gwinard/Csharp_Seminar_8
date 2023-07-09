@@ -73,6 +73,8 @@ void MinSum(int minSum, int sumLine, int[,] matrix)
 int rows = ReadInt("Введите количество строк: ");
 int columns = ReadInt("Введите количество столбцов: ");
 
+Console.WriteLine();
+
 int[,] matrix = FillMatrix(rows, columns, 0, 10);
 PrintMatrix(matrix);
 
